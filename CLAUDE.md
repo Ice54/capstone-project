@@ -4,7 +4,7 @@
 
 - Node.js v24.18.0
 
-- [Frontend framework to be decided]
+- React 19 + TypeScript + Vite
 
 ## Conventions
 
