@@ -1,0 +1,64 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 1.25rem 0 1rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.count {
+  margin: 0;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.tabs {
+  display: inline-flex;
+  gap: 0.35rem;
+  padding: 0.25rem;
+  background: #f8fafc;
+  border-radius: 999px;
+}
+
+.tab {
+  border: none;
+  background: transparent;
+  color: #64748b;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.activeTab {
+  background: #fff;
+  color: #4338ca;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+}
+
+.clearButton {
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.85rem;
+  background: transparent;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.clearButton:hover {
+  background: #f1f5f9;
+  color: #334155;
+}
+
+@media (max-width: 640px) {
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tabs {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,44 @@
+.app {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1.25rem 4rem;
+}
+
+.shell {
+  width: min(100%, 42rem);
+}
+
+.header {
+  margin-bottom: 1.75rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6366f1;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(2.25rem, 5vw, 3rem);
+  line-height: 1.1;
+  color: #111827;
+}
+
+.subtitle {
+  margin: 0.75rem 0 0;
+  color: #4b5563;
+  max-width: 32rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+}
